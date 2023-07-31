@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="forms" id="forms">
+            <h1>Formulario de informações</h1>
+            <form>
+                <label for="name">Seu nome</label>
+                <input type="text" placeholder="Digite o seu nome" name="name" id="name">
+            
+                <label for="sobre nome"><p>Sobrenome</p></label>
+                <input type="text" placeholder="Digite o seu sobrenome" name="sobre nome" id="sub-name">
+            
+                <label for="idade">Idade</label>
+                <input type="number" placeholder="Digite a sua idade" name="idade" id="idade">
+                
+                <label for="Estado">Estado</label>
+                <input type="text" placeholder="Seu estado" name="Estado" id="estado">
+            
+                <label for="Cidade">Cidade</label>
+                <input type="text" placeholder="Sua cidade" name="Cidade" id="Cidade">
+            
+                <label for="mais-info">Informações</label>
+                <textarea placeholder="digite mais informaçoes" id="info"></textarea>
+            <input type="button" value="enviar" id="button" onclick="clicar()">
+            </form>
+    </div>
+    <section class="forms02" id="formst ">
+        <h1>Formulario de informações</h1>
+        <article id="article">
+        
+        <p>O seu nome é <label id="nameF">nome</label> <label id="snameF">nome</label></p>
+        
+        <p>A sua idade é <label  id="idform">idade</label></p>
+       
+        <p>Voce mora na cidade de <label id="cidform">cidade</label> no estado de <label  id="estdform">estado</label></p>
+        
+        <p>Mais informaçoes: <label id="inforform">informações</label></p>
+        </article>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@900 & display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(40deg, #10454F 500px,#818274,#A3AB78,#BDE038);
+}
+.forms{
+
+    width: 240px;
+    height: auto;
+    background-image: linear-gradient(40deg, #10454F 100px,#818274,#A3AB78,#BDE038);
+    padding: 20px ;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 20px 10px black;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-decoration: underline 2px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.forms label{
+    position:relative;
+    display: flex;
+    width: 100px;
+    background-color:#10454F ; /*mudar a cor depois*/  
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #aeafa8;
+    border-width: 2px;
+    padding: 3px;
+    color: #BDE038;
+    
+
+}
+
+.forms input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border-style: none;
+    border: none;
+    
+}
+textarea{
+    height: auto;
+    padding: 5px;
+    border: none;
+    max-width: 200px;
+    min-width: 200px;
+    border-radius: 5px;
+    max-height: auto;
+}
+#button{
+    background-color: aqua;
+    margin: auto;
+    margin-top: 10px;
+}
+.forms02{
+position: absolute;
+width: 400px;
+height: auto;
+background-image: linear-gradient(80deg, #10454F 100px,#818274,#A3AB78,#BDE038);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+padding:30px; 
+display: none;
+
+}
+.forms02 p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.forms02 p label{
+    font-weight: bold;
+    text-decoration: underline;
+   
+
+    
+   
+}
